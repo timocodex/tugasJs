@@ -1,0 +1,16 @@
+//aplikasi pemilu online
+SIMPAN 'nama user/voter'
+SIMPAN 'umur user/voter'
+IF 'umur voter' kurang dari 17 tahun THEN:
+	TULISKAN "maaf anda belum mencukupi umur untuk memilih! (umur minimal untuk memilih: 17 	tahun)"
+ELSE 
+	ULANGI dan TULISKAN 'hasil sementara' dari setiap kandidat
+	TAMPILKAN "masukan 'id' kandidat pilihan anda"
+	SIMPAN 'id' kandidat pilihan
+	ULANGI dan TULISKAN 'hasil sementara' dari setiap kandidat
+	TULISKAN Pemenang sementara pemilu
+END IF
+	
+
+
+
